@@ -3,7 +3,7 @@
 ## About The Project
 
 This project revolves around simulating a soldier. The agent learns several tasks using the Reinforcement learning method. 
-The final Project will include main three simulations which shows different skills a soldier is capable of, such as:
+The final Project will include main four simulations which shows different skills a soldier is capable of, such as:
 * Chase after a target
 * Run away from an enemy
 * Work in a team to solve a problem
@@ -42,7 +42,7 @@ First make sure to have the next tools.
   pip install mlagents==0.0.17
   ```
 * Tensorflow
-```sh
+  ```sh
   pip install tensorflow
   ```
   
@@ -51,9 +51,9 @@ First make sure to have the next tools.
 2) Set the branch you desire to use from our project.
 3) Clone our branch into the /Project folder in the mlagents local repo.
 4) Open one of the examples from:
-  * ml-agents-release_3_branch\Project\Assets\ML-Agents\Examples
+&nbsp;&nbsp;&nbsp;&nbsp;* ml-agents-release_3_branch\Project\Assets\ML-Agents\Examples
 5) Install mlagents Unity support from the example:
-  * Search MLAgents at Window -> Package Manager
+&nbsp;&nbsp;&nbsp;&nbsp;* Search MLAgents at Window -> Package Manager
 6) Use one of our trained brains and run!
 
 <!-- CONTACT -->
