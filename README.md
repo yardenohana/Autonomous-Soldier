@@ -16,7 +16,7 @@ This simulation is our basic example, shows a soldier chases another in the aren
 ### Jumping Simulation
 Reveals the ability of the agent to jump over an obstacle, while a different character chases after him.
 
-## Shooting Simulation
+### Shooting Simulation
 Shows an agent who is able to shoot & neutralize a number of enemies approaching him.
 
 ### Team Simulation
