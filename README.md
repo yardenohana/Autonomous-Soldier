@@ -37,11 +37,11 @@ As we are using Reinforcement learning, we train our network using [PPO](https:/
 First make sure to have the next tools.
 * Unity 2020 edition
 * [Python3](https://www.python.org/downloads/)
-* ML-Agents 0.17 library
+* ML-Agents 0.17 library installation:
   ```sh
   pip install mlagents==0.0.17
   ```
-* Tensorflow
+* Tensorflow installation:
   ```sh
   pip install tensorflow
   ```
