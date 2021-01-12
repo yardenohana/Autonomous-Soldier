@@ -8,12 +8,16 @@ The final Project will include main four simulations which shows different skill
 * Run away from an enemy
 * Work in a team to solve a problem
 * Jump over obstacles
+* Absorb the environment
 
 ### Chase Simulation
 This simulation is our basic example, shows a soldier chases another in the arena.
 
 ### Jumping Simulation
-This simulation reveals the ability of the agent to jump over an obstacle, while a different character chases after him.
+Reveals the ability of the agent to jump over an obstacle, while a different character chases after him.
+
+## Shooting Simulation
+Shows an agent who is able to shoot & neutralize a number of enemies approaching him.
 
 ### Team Simulation
 Here, we have two teams - chasers and runners, who will have to use their environment to win. 
@@ -47,14 +51,14 @@ First make sure to have the next tools.
   ```
   
 ### Installation
-  1. Clone the ml-agents-release-3-branch from [here](https://github.com/Unity-Technologies/ml-agents).
-  2. Set the branch you desire to use from our project.
-  3. Clone our branch into the /Project folder in the mlagents local repo.
-  4. Open one of the examples from:
-     1. ml-agents-release_3_branch\Project\Assets\ML-Agents\Examples
-  5. Install mlagents Unity support from the example:
-     1. Search MLAgents at Window -> Package Manager
-  6. Use one of our trained brains and run!
+1. Clone the ml-agents-release-3-branch from [here](https://github.com/Unity-Technologies/ml-agents).
+2. Set the branch you desire to use from our project.
+3. Clone our branch into the /Project folder in the mlagents local repo.
+4. Open one of the examples from:
+   - ml-agents-release_3_branch\Project\Assets\ML-Agents\Examples
+5. Install mlagents Unity support from the example:
+   - Search MLAgents at Window -> Package Manager
+6. Use one of our trained brains and run!
 
 <!-- CONTACT -->
 ## Contact
