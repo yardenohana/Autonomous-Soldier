@@ -1,4 +1,5 @@
 # Autonomous Soldier
+![Basic](https://imgur.com/a/qsIqCaU)
 
 ## About The Project
 
@@ -10,21 +11,22 @@ The final Project will include main four simulations which shows different skill
 * Jump over obstacles
 * Absorb the environment
 
-### Chase Simulation
+### 1. Chase Simulation
 This simulation is our basic example, shows a soldier chases another in the arena.
+* A reward system based on a range of -1 to 1.
 
-### Jumping Simulation
+### 2. Jumping Simulation
 Reveals the ability of the agent to jump over an obstacle, while a different character chases after him.
 
-### Shooting Simulation
+### 3. Shooting Simulation
 Shows an agent who is able to shoot & neutralize a number of enemies approaching him.
 
-### Team Simulation
+### 4. Teamwork Simulation
 Here, we have two teams - chasers and runners, who will have to use their environment to win. 
 * Each team is connected to one "brain"
 * The Runners have the ability to grab obstacles in the arena
 * The Runners have the ability to place and lock an obstacle in place.
-* The Chasers goal is to touch the Runners.
+* The Chasers' goal is to touch the Runners.
 
 ### Reward System
 As we are using Reinforcement learning, we train our network using [PPO](https://openai.com/blog/openai-baselines-ppo/) algorithm.
