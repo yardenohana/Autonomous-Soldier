@@ -51,9 +51,9 @@ Markup : 1. Clone the ml-agents-release-3-branch from [here](https://github.com/
          2. Set the branch you desire to use from our project.
          3. Clone our branch into the /Project folder in the mlagents local repo.
          4. Open one of the examples from:
-            1. ml-agents-release_3_branch\Project\Assets\ML-Agents\Examples
+             1. ml-agents-release_3_branch\Project\Assets\ML-Agents\Examples
          5. Install mlagents Unity support from the example:
-            1. Search MLAgents at Window -> Package Manager
+             1. Search MLAgents at Window -> Package Manager
          6. Use one of our trained brains and run!
 
 <!-- CONTACT -->
