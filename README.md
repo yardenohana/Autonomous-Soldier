@@ -1,6 +1,4 @@
 # Autonomous Soldier
-![Basic](https://imgur.com/a/qsIqCaU)
-
 ## About The Project
 
 This project revolves around simulating a soldier. The agent learns several tasks using the Reinforcement learning method. 
