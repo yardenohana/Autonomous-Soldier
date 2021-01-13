@@ -1,17 +1,17 @@
 # Autonomous Soldier
 ## About The Project
 
+In the future we won't need real-life soldiers to fight, as technology takes over.
 This project revolves around simulating a soldier. The agent learns several tasks using the Reinforcement learning method. 
 The final Project will include main four simulations which shows different skills a soldier is capable of, such as:
 * Chase after a target
 * Run away from an enemy
 * Work in a team to solve a problem
 * Jump over obstacles
-* Absorb the environment
+* Absorb the environment using sensors
 
 ### 1. Chase Simulation
 This simulation is our basic example, shows a soldier chases another in the arena.
-* A reward system based on a range of -1 to 1.
 
 ### 2. Jumping Simulation
 Reveals the ability of the agent to jump over an obstacle, while a different character chases after him.
@@ -28,6 +28,8 @@ Here, we have two teams - chasers and runners, who will have to use their enviro
 
 ### Reward System
 As we are using Reinforcement learning, we train our network using [PPO](https://openai.com/blog/openai-baselines-ppo/) algorithm.
+* In order to build the simulations we had to base each one of them of a specific reward/punishment algorithm.
+* Look at the Scripts directory in order to understand it better.
 
 ### Built With
 
