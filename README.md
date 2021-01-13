@@ -3,7 +3,7 @@
 
 In the future we won't need real-life soldiers to fight, as technology takes over.
 This project revolves around simulating a soldier. The agent learns several tasks using the Reinforcement learning method. 
-The final Project will include main four simulations which shows different skills a soldier is capable of, such as:
+The final Project will include four main simulations, each shows a different skill a soldier is capable of, such as:
 * Chase after a target
 * Run away from an enemy
 * Work in a team to solve a problem
