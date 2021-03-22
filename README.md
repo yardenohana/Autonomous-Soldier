@@ -12,19 +12,43 @@ The final Project will include four main simulations, each shows a different ski
 
 ### 1. Chase Simulation
 This simulation is our basic example, shows a soldier chases another in the arena.
+* Chaser gets reward of 1.0 when catching the runner
+* Runner gets punishment of -1.0 when being catched
+
+#### Observations - field of view:
+* View radius around the agent
+* Angle of 180° 
+* Unity Raycast for targets inside the angle
+* Using Unity layers to determine target is an enemy, or obstacle
 
 ### 2. Jumping Simulation
 Reveals the ability of the agent to jump over an obstacle, while a different character chases after him.
 
+1) Started with teaching an agent how to jump over an obstacle, in the arenas bounds
+2) Added both Chaser & Runner - a duplicate of the original agent brain
+3) Trained the Chaser, and Runner, to use the jumping ability while the chase
+
+When the following cases occur the current training episode ends;
+* Reward of 1.0 when chaser catches the runner
+* Punishment of -1.0 when Runner being catched
+* Reward of -1.0 when Runner/Chaser touches the obstacles
+* Punishment of -1.0 when Runner/Chaser touches the ceiling
+* Punishment of -1.0 when Runner/Chaser move out of the arena's bounds
+
 ### 3. Shooting Simulation
 Shows an agent who is able to shoot & neutralize a number of enemies approaching him.
 
-### 4. Teamwork Simulation
-Here, we have two teams - chasers and runners, who will have to use their environment to win. 
-* Each team is connected to one "brain"
-* The Runners have the ability to grab obstacles in the arena
-* The Runners have the ability to place and lock an obstacle in place.
-* The Chasers' goal is to touch the Runners.
+1) Trained basic agent to use shooting with raycast, no other abilities for now
+2) Added moving ability, trained with static enemy (no movement)
+3) Trained the shooter to learn rotation, in order to have proper shooting skills to face with number of enemies
+  * Enemy placed randomly every episode, agent only rotates and shoot
+4)  Six enemies are added to the scene
+5)  Increasing the curiosity of the agent, and using curriculum learning for better results
+
+* Reward of 1.0 divided by the amount of enemies, when shooting an anemy succeeded
+* Punishment of -0.02 when missing a shot
+* Punishment of -1.0 when being catched
+* Punishment of -0.001 each frame, for speeding up the training process
 
 ### Reward System
 As we are using Reinforcement learning, we train our network using [PPO](https://openai.com/blog/openai-baselines-ppo/) algorithm.
