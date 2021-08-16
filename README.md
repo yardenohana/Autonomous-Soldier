@@ -1,6 +1,7 @@
 # Autonomous Soldier
-## About The Project
+![autosoldier](https://user-images.githubusercontent.com/69144526/129627159-17798599-6570-4025-ae20-5ed58ff2aa7a.png)
 
+## About The Project
 In the future we won't need real-life soldiers to fight, as technology takes over.
 This project revolves around simulating a soldier. The agent learns several tasks using the Reinforcement learning method. 
 The final Project will include four main simulations, each shows a different skill a soldier is capable of, such as:
